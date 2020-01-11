@@ -71,7 +71,99 @@ var projectname = "iOS study"
 let language = "swift"
 
 
+// Character 타입 저장 변수
+var firstLetter : Character = "s"
 
+// Character 타입 저장 상수
+let lastLetter : Character = "t"
+
+
+// 선언과 초기화를 동시에
+var day = 7
+
+var year2 : Int // 선언
+year2 = 1999
+
+
+var year3 : Int // 명시적인 Int 타입
+var name : String // 명시적인 String 타입
+var firstChr : Character // 명시적인 Character 타입
+var distance : Double // 명시적인 Double 타입
+var pi : Float // 명시적인 Float 타입
+var flag : Bool // 명시적인 Bool 타입
+
+
+var stmt = "꼼꼼한 재은씨의 키는"
+var height = 185
+
+var heightStmt = stmt + String(height)
+
+var name1 = "꼼꼼한 재은씨"
+var year4 = 2014
+var month1 = 10
+var day1 = 1
+
+let profile = "\(name1)는 \(year4)년 \(month1)월 \(day1)일에 출간되었습니다."
+print(profile)
+
+
+let apple = 3
+let banana = 2
+let orange = 4
+
+let desc = "과일은 총 \(apple+banana+orange)개입니다."
+print(desc)
+
+let result = "1부터 5까지의 숫자의 합은 \(1+2+3+4+5)입니다."
+print(result)
+
+let poem = "계절이 지나가는 하늘에는"
+     + "가을로 가득차 있다."
+     + "나는 아무 걱정도 없이 가슴 속의 별들을"
+     + "다 헬 듯 합니다"
+
+let poem1 = "계절이 지나가는 하늘에는 \n"
+    + "가을로 가득 차 있습니다. \n"
+    + "나는 아무 걱정도 없이 가슴 속의 별들을 \n"
+    + "다 헬 듯 합니다"
+
+let poem2 = """
+계절이 지나가는 하늘에는 ~ 다 헬 듯 합니다.
+"""
+
+true && true
+false && false
+true && false
+false && true
+
+true || true
+false || false
+true || false
+false || true
+
+
+let a = 10
+let b = 5
+let c = 2
+
+a > b && b > c
+a == b && a > b
+a == b || a > b
+
+a - b > b - c && b == 0
+a + b > c || c > 0
+
+
+let a1 = 1
+let b1 = 5
+
+for row in a1...b1 {
+    row
+}
+
+for row in a1..<b1 {
+    row
+}
 
 
 
